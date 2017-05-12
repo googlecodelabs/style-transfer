@@ -154,7 +154,7 @@ public class Convolution2D extends NeuralNetLayerBase {
         // Invoked the padding kernel.
         mConvovle.invoke_padd();
 
-        // TODO: Use convolve2DGEMM instead.
+        // TODO Step2: Use convolve2DGEMM instead.
         Allocation out_alloc = convolve2D(img_padded, img_h, img_w);
 
         // Destroy the intermediate Allocations.

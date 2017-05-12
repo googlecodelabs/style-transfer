@@ -66,7 +66,6 @@ public class ConvolveUtil {
     // convert a multi-channel img to a col:
     // (img_channel * kernel_h * kernel_w) * (out_h * out_w)
     //               X                             Y
-    // TODO : possible to make it all use Allocation?
     public static float[] im2col(float[] img,
                                  int img_h, int img_w, int img_channel,
                                  int kernel_h, int kernel_w,

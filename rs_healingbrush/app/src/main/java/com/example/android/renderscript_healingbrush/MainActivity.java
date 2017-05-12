@@ -20,7 +20,6 @@ import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
@@ -29,7 +28,6 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Environment;
 import android.renderscript.RenderScript;
 import android.util.Log;
 import android.view.MotionEvent;
@@ -37,9 +35,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.example.android.renderscript_healingbrush.R;
-
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 

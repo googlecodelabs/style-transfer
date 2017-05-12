@@ -61,7 +61,7 @@ public class MainActivity extends Activity {
     private Bitmap[] mBitmapsOut;
     private ImageView mImageView;
 
-    // TODO: Replace FastStyleModel with FastStyleModelTile and see the perf diff.
+    // TODO Bonus: Replace FastStyleModel with FastStyleModelTiled and see the perf diff.
     private FastStyleModel mFSNN;
     private boolean IMG_LOADED = false;
 
